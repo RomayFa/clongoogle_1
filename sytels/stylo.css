@@ -1,0 +1,49 @@
+body{
+background-color: aliceblue;
+}
+header{
+    
+    display: flex;
+    justify-content:flex-end;
+    background-color: yellow;
+    width: 100%;
+    height: 80px
+
+}
+header .Opcion1 {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    
+   
+}
+header .Opcion1 a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+
+}
+header .Opcion1 .menuicono {
+    background-image: url(https://static.thenounproject.com/png/756729-200.png) ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   width: 35px;
+   height: 35px;
+    
+ }
+ header .Opcion1 .usua img{
+    border: radius 50%;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+   
+    
+
+   
+ }
+
